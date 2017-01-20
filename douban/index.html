@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+
+    <!-- 移动设备优先 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body ng-app="app">
+
+    <!-- 如果真正完成一个项目
+         分析 : (1)界面分析 (2)功能分析 (3)原材料分析
+         (1) 响应式布局
+             固定部分 顶部导航栏 左边菜单栏
+             右边的路由
+
+             顶部分类标题
+             中间电影列表
+
+             详情
+                左边大图 右边电影信息 下部电影描述
+
+         (2)点击相应的位置可以切换显示
+            左边三条
+            单独的电影条目
+
+         (3)豆瓣的api angular bs
+
+         制定开发周期: 1天
+         创建文件系统:
+         设计核心代码:
+         完善内容:
+         调试:
+         测试:
+         发布:
+
+        1、写界面
+        2、填充界面和js之间的依赖关系 绑定数据
+        3、js
+
+     -->
+
+    <!--1、导航栏-->
+    <div class="nav navbar-inverse navbar-fixed-top">
+        <a href="#" class="navbar-brand">豆瓣电影</a>
+
+        <div class="navbar-header">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- 数据绑定 -->
+                    <li><a href="">{{navTitle}}</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <!--2、菜单-->
+        <div class="row">
+            <div class="col-sm-3 col-md-2 siderbar hidden-xs">
+                <ul class="nav nav-pills nav-stacked">
+                    <!-- 这里是路由的切换点 -->
+                    <li select-link class="active"><a href="#/in_theaters">正在上映</a></li>
+                    <li select-link ><a href="#/coming_soon">即将上映</a></li>
+                    <li select-link ><a href="#/top250">TOP250</a></li>
+                </ul>
+                <br>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="请输入搜索的内容">
+                    <span class="input-group-addon" id="searchMovie"><a href="">搜索🔍</a></span>
+                </div>
+            </div>
+            <!--3、右边 注意是路由的挂载点-->
+            <div class="col-md-10 col-sm-9 col-md-offset-2 col-sm-offset-3" ng-view=>
+                右边
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="libs/angular/angular.min.js"></script>
+    <script src="libs/angular-route/angular-route.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="movie/movie-list-controller.js"></script>
+    <script src="movie/movie-detail-controller.js"></script>
+
+</body>
+</html>
