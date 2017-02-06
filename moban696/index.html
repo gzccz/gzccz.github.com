@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <!--fonts-->
+    <!--<link href='http://fonts.useso.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>-->
+    <!--<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'-->
+          <!--rel='stylesheet' type='text/css'>-->
+    <!--//fonts-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="狗子村村长"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!-- //for-mobile-apps -->
+    <!-- js -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.97074.js"></script>
+    <!-- js -->
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
+</head>
+<body>
+<!-- banner -->
+<div id="home" class="banner">
+    <div class="container">
+        <div class="banner-grids">
+            <div class="col-md-4 navigation">
+                <div class="nav-left">
+                    <div class="grid__item color-4">
+                        <a class="link link--kumya" href="#home"><span data-letters="余卓">余卓</span></a>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <span class="menu"><img src="images/menu.png" alt=""/></span>
+                    <nav class="cl-effect-1">
+                        <ul class="nav1">
+                            <li><a class="scroll" href="#about">个人信息</a></li>
+                            <li><a class="scroll" href="#skills">技术详情</a></li>
+                            <li><a class="scroll" href="#projects">项目列表</a></li>
+                            <li><a class="scroll" href="#services">Services</a></li>
+                            <li><a class="scroll" href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <!-- script for menu -->
+                    <script>
+                        $("span.menu").click(function () {
+                            $("ul.nav1").slideToggle(300, function () {
+                                // Animation complete.
+                            });
+                        });
+                    </script>
+                    <!-- //script for menu -->
+
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-md-8 banner-image text-center">
+                <div class="box" id="scroll">
+                    <ul class="img" id="img_box">
+                        <li><img src="./images/01.png" alt=""/></li>
+                        <li><img src="./images/01.png" alt=""/></li>
+                        <li><img src="./images/01.png" alt=""/></li>
+                        <li><img src="./images/01.png" alt=""/></li>
+                        <li><img src="./images/01.png" alt=""/></li>
+                        <li><img src="./images/01.png" alt=""/></li>
+                    </ul>
+
+                    <ul class="cirlce" id="circle_box">
+                        <li><a href="javascript:" data="1"></a></li>
+                        <li><a href="javascript:" data="2"></a></li>
+                        <li><a href="javascript:" data="3"></a></li>
+                        <li><a href="javascript:" data="4"></a></li>
+                        <li><a href="javascript:" data="5"></a></li>
+                    </ul>
+
+                    <ul class="arrow">
+                        <li><span id="left"><</span></li>
+                        <li><span id="right">></span></li>
+                    </ul>
+            </div>
+            </div>
+            <script>
+                // 用js原生写轮播图, 要小心定时器之间的冲突,
+                // 解决方案, 在一个事件开始时, 可以全部清掉定时器, 再一次开启所需要的定时器
+                var imgBox = document.getElementById('img_box');
+                var circleBox = document.getElementById('circle_box');
+                var circleArr = circleBox.getElementsByTagName('a');
+                var num = 0;
+                var timer1 = null;
+                var timer2 = null;
+                var timer3 = null;
+                var timer4 = null;
+                var timer5 = null;
+                var leader = 0, target = 0;
+
+                //定时器里,时间间隔设置, 最佳效果是1000/60 最佳性能是1000/24
+                timer1 = setInterval(autoPlay, 1000 / 24);
+
+                function autoPlay() {
+                    num = num - 10;
+                    num <= -3000 ? num = 0 : num;
+                    imgBox.style.left = num + 'px';
+                    if (num % 600 == 0) {
+                        clearInterval(timer1);
+                        timer2 = setTimeout(function () {
+                            timer1 = setInterval(autoPlay, 1000 / 24);
+                        }, 3000)
+                    }
+                }
+
+//                console.log(circleArr[2].getAttribute('data'));
+
+                for (var i = 0; i < 5; i++) {
+                    circleArr[i].onmouseover = function () {
+                        clearInterval(timer1);
+                        clearTimeout(timer2);
+                        var data = this.getAttribute('data');
+                        console.log(data);
+                        target = (-data + 1) * 600;
+                        num = target;
+                        //leader = leader + (target - leader) / 10;
+                        timer3 = setInterval(function () {
+                            leader = leader + (target - leader) / 10;
+                            imgBox.style.left = leader + 'px';
+                        }, 20)
+                    };
+
+                    circleArr[i].onmouseout = function () {
+                        clearInterval(timer3);
+                        timer2 = setTimeout(function () {
+                            timer1 = setInterval(autoPlay, 1000 / 24);
+                        }, 3000);
+
+                    }
+
+                }
+
+                var box = document.getElementById('scroll');
+                var left = document.getElementById('left');
+                var right = document.getElementById('right');
+                box.onmouseover = function () {
+                    left.style.opacity = 0.7;
+                    right.style.opacity = 0.7;
+                }
+                box.onmouseout = function () {
+                    left.style.opacity = 0.2;
+                    right.style.opacity = 0.2;
+                }
+
+                left.onmouseover= function () {
+                    clearInterval(timer1);
+                    clearTimeout(timer2);
+                    clearTimeout(timer3);
+                }
+                right.onmouseover= function () {
+                    clearInterval(timer1);
+                    clearTimeout(timer2);
+                    clearTimeout(timer3);
+                }
+
+                left.onmouseout= function () {
+                    timer2 = setTimeout(function () {
+                        timer1 = setInterval(autoPlay, 1000 / 24);
+                    }, 3000)
+                }
+                right.onmouseout= function () {
+                    timer2 = setTimeout(function () {
+                        timer1 = setInterval(autoPlay, 1000 / 24);
+                    }, 3000)
+                }
+
+
+                left.onclick = function () {
+                    clearTimeout(timer4);
+                    clearTimeout(timer5);
+                    timer4 = setInterval(function () {
+                        imgBox.style.left = num + 10 + 'px';
+                        num = num + 10;
+                        if (num % 600 == 0) {
+                            clearInterval(timer4)
+                        }
+                    }, 20);
+
+                    if (num == 0) {
+                        imgBox.style.left = -2400 + 'px';
+                        num = -3000;
+                    }
+                };
+                right.onclick = function () {
+                    clearTimeout(timer4);
+                    clearTimeout(timer5);
+                    timer5 = setInterval(function () {
+                        imgBox.style.left = num - 10 + 'px';
+                        num = num - 10;
+                        if (num % 600 == 0) {
+                            clearInterval(timer5)
+                        }
+                    }, 20);
+
+                    if (num == -2400) {
+                        imgBox.style.left = 0 + 'px';
+                        num = 0;
+                    }
+                }
+
+            </script>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- //banner -->
+
+<!-- about -->
+<div id="about" class="about">
+    <div class="container">
+        <!--<div class="about-info">-->
+        <div class="about-grids">
+            <div class="col-lg-6 col-md-12 about-grid">
+                <ul class="info-left col-md-4 col-sm-4 col-xs-4">
+                    <li>姓名:</li>
+                    <li>性别:</li>
+                    <li>毕业院校:</li>
+                    <li>专业:</li>
+                    <li>手机:</li>
+                    <li>籍贯:</li>
+                </ul>
+                <ul class="info-right col-md-8 col-sm-8 col-xs-8">
+                    <li>余卓</li>
+                    <li>男</li>
+                    <li>中国计量大学</li>
+                    <li>信息与计算科学(一本)</li>
+                    <li>18667193979</li>
+                    <li>浙江建德</li>
+                </ul>
+            </div>
+            <br/>
+            <div class="col-lg-6 col-md-12 about-grid" id="info">
+                <h4>My goals</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- //about -->
+
+<!-- my skills -->
+<div id="skills" class="our-skills">
+    <div class="container">
+        <div class="skill-info">
+            <h2>Web 前端技能</h2>
+        </div>
+        <div class="skill-grids">
+            <div class="col-md-3 skills-grid text-center">
+                <p>HTML & CSS</p>
+
+                <div class="circle" id="circles-1"></div>
+                <p>熟悉HTML+CSS布局，遵循W3C规范，编写有语义化、模块化、易于维护的页面代码</p>
+            </div>
+            <div class="col-md-3 skills-grid text-center">
+                <p>javaScript</p>
+
+                <div class="circle" id="circles-2"></div>
+                <p>熟悉JavaScript、Ajax工作原理和实现方法，了解HTTP协议</p>
+            </div>
+            <div class="col-md-3 skills-grid text-center">
+                <p>jQuery</p>
+
+                <div class="circle" id="circles-3"></div>
+                <p>熟悉jQuery工具库，实现日常交互效果。熟悉Bootsrap前端框架</p>
+            </div>
+            <div class="col-md-3 skills-grid text-center">
+                <p>Other</p>
+
+                <div class="circle" id="circles-4"></div>
+                <p>喜欢敲代码，并在其中发现问题,自己解决问题</p>
+            </div>
+            <div class="clearfix"></div>
+            <script type="text/javascript" src="js/circles.js"></script>
+            <script>
+                var colors = [
+                    ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852']
+                ];
+                var arr=['',80,70,70,80];
+                for (var i = 1; i <= 4; i++) {
+                    var child = document.getElementById('circles-' + i),
+                            percentage = arr[i];
+                    Circles.create({
+                        id: child.id,
+                        percentage: percentage,
+                        radius: 80,
+                        width: 10,
+                        number: percentage,
+                        text: '%',
+                        colors: colors[i - 1]
+                    });
+                }
+            </script>
+        </div>
+    </div>
+</div>
+<!-- //my skills -->
+
+
+<div id="projects" class="gallery">
+    <div class="container">
+        <script src="js/jquery.chocolat.js"></script>
+        <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+        <!--light-box-files -->
+        <script type="text/javascript" charset="utf-8">
+            $(function () {
+                $('.gallery a').Chocolat();
+            });
+        </script>
+        <h3>项目列表</h3>
+        <section>
+            <ul id="da-thumbs" class="da-thumbs">
+                <li>
+                    <a href="images/a1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                        <img src="images/a1.jpg" alt=""/>
+
+                        <div>
+                            <h5>VIEW</h5>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/a2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                        <img src="images/a2.jpg" alt=""/>
+
+                        <div>
+                            <h5>VIEW</h5>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/a3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                        <img src="images/a3.jpg" alt=""/>
+
+                        <div>
+                            <h5>VIEW</h5>
+
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/a4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                        <img src="images/a4.jpg" alt=""/>
+
+                        <div>
+                            <h5>VIEW</h5>
+
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/a5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                        <img src="images/a5.jpg" alt=""/>
+
+                        <div>
+                            <h5>VIEW</h5>
+
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/a6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                        <img src="images/a6.jpg" alt=""/>
+
+                        <div>
+                            <h5>VIEW</h5>
+
+                        </div>
+                    </a>
+                </li>
+
+
+                <div class="clearfix"></div>
+            </ul>
+        </section>
+        <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $(' #da-thumbs > li ').each(function () {
+                    $(this).hoverdir();
+                });
+            });
+        </script>
+    </div>
+</div>
+<!--//gallery-->
+<!--services-->
+<div id="services" class="services">
+    <div class="container">
+        <div class="ser-head">
+            <h3>FEATURED SERVICES</h3>
+        </div>
+        <div class="wel-grids">
+            <div class="col-md-4 wel-grid text-center">
+                <div class="btm-clr">
+                    <figure class="icon">
+                        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    </figure>
+                    <h3>VOLUPTATEM</h3>
+
+                    <p> Nemo enim ipsam voluptatem
+                        quia voluptas sit aspernatur aut
+                        odit aut fugi.</p>
+                </div>
+            </div>
+            <div class="col-md-4 wel-grid btm-gre text-center">
+                <div class="btm-clr">
+                    <figure class="icon">
+                        <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                    </figure>
+                    <h3>VOLUPTATEM</h3>
+
+                    <p> Nemo enim ipsam voluptatem
+                        quia voluptas sit aspernatur aut
+                        odit aut fugi.</p>
+                </div>
+            </div>
+            <div class="col-md-4 wel-grid text-center">
+                <div class="btm-clr">
+                    <figure class="icon">
+                        <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                    </figure>
+                    <h3>VOLUPTATEM</h3>
+
+                    <p> Nemo enim ipsam voluptatem
+                        quia voluptas sit aspernatur aut
+                        odit aut fugi.</p>
+                </div>
+            </div>
+            <div class="col-md-4 wel-grid btm-gre text-center">
+                <div class="btm-clr">
+                    <figure class="icon">
+                        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                    </figure>
+                    <h3>VOLUPTATEM</h3>
+
+                    <p> Nemo enim ipsam voluptatem
+                        quia voluptas sit aspernatur aut
+                        odit aut fugi.</p>
+                </div>
+            </div>
+            <div class="col-md-4 wel-grid text-center">
+                <div class="btm-clr">
+                    <figure class="icon">
+                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                    </figure>
+                    <h3>VOLUPTATEM</h3>
+
+                    <p> Nemo enim ipsam voluptatem
+                        quia voluptas sit aspernatur aut
+                        odit aut fugi.</p>
+                </div>
+            </div>
+            <div class="col-md-4 wel-grid btm-gre text-center">
+                <div class="btm-clr">
+                    <figure class="icon">
+                        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                    </figure>
+                    <h3>VOLUPTATEM</h3>
+
+                    <p> Nemo enim ipsam voluptatem
+                        quia voluptas sit aspernatur aut
+                        odit aut fugi.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!--//services-->
+
+<!-- contact-us -->
+<div class="contact-us">
+    <div class="container">
+        <div class="contact-grids">
+            <div class="col-md-4 contact-grid text-center">
+                <div class="point-icon"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></div>
+                <p>Jl. Pahlawan VII No.247-D Sidoarjo-Surabaya-Indonesia</p>
+            </div>
+            <div class="col-md-4 contact-grid text-center">
+                <div class="point-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+                <p><a href="mailto:info@example.com">rudhisasmito@gmail.com</a></p>
+            </div>
+            <div class="col-md-4 contact-grid text-center">
+                <div class="point-icon"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></div>
+                <p>+613 0000 0000</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="contact-info">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="Your E-Mail" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <input type="submit" value="SEND MESSAGE">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- //contact-us -->
+<!-- footer -->
+<div class="copy-right">
+    <div class="container">
+        <p><a target="_blank" href=""></a></p>
+    </div>
+</div>
+<!-- footer -->
+<!-- smooth scrolling -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        /*
+         var defaults = {
+         containerID: 'toTop', // fading element id
+         containerHoverID: 'toTopHover', // fading element hover id
+         scrollSpeed: 1200,
+         easingType: 'linear'
+         };
+         */
+        $().UItoTop({easingType: 'easeOutQuart'});
+    });
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+</body>
+</html>
