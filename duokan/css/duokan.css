@@ -1,0 +1,337 @@
+/* css初始化 */
+     *{margin: 0;padding: 0;}
+     body{background-color: rgb(251,250,248);}
+
+     div,p,h1,h2,h3,h4,h5,h6,a{
+       text-decoration: none;  /* 去掉链接的下划线 */
+     }
+
+     ul{list-style: none;}
+     input{
+      border: 0 none;
+      outline-style: none;
+      margin: 0;
+      padding: 0;
+     }
+
+     /*********************** 1>头部分 **********************/
+     .headbox{
+      height: 35px;
+      border-bottom: 1px solid #D8D8D8;
+     }
+     .headbox a:hover{
+      color: orange;
+     }
+     .navbox{
+      width: 1190px;
+      height: 35px;
+      margin: 0 auto;
+      /* background-color: pink; */
+     }
+     .nav-left{
+      height: 35px;
+      line-height: 35px;
+      float: left;
+     }
+     .lt-list li{
+      float: left;
+      font-size: 13px;
+      text-align: center;
+      font-weight: bold;
+      color: rgb(147,147,147);
+     }
+    .lt-list li a:link { color:rgb(143,140,140); text-decoration: none;}
+    .lt-list li a:visited{color:rgb(143,140,140); text-decoration: none;}
+    .lt-list li a:hover{color:black; text-decoration: none;}
+    .lt-list li a:active {color:rgb(143,140,140); text-decoration: none;}
+
+    .nav-left .checked:visited{color: black;}
+
+    .part{width: 20px;}
+
+    .nav-right{
+      height: 35px;
+      line-height: 35px;
+      float: right;
+     }
+     .rt-list li{
+      float: right;
+      font-size: 13px;
+      text-align: center;
+      font-weight: 300;
+      color: rgb(147,147,147);
+     }
+
+    .rt-list li a:link { color:rgb(143,140,140); text-decoration: none;}
+    .rt-list li a:visited{color:rgb(143,140,140); text-decoration: none; }
+    .rt-list li a:hover{color:orange; text-decoration: none;}
+    .rt-list li a:active {color:rgb(143,140,140); text-decoration: none; }
+     /*********************** 2>主体部分 **********************/
+     .mbody{width: 1190px; margin: 0 auto;}
+
+     .body-top{height: 85px;overflow: hidden;}
+
+     .logo{margin-top: 20px;float: left; }
+
+     .serch{
+      float: right;
+      width: 300px;
+      height: 35px;
+      border: 2px solid rgb(240,130,55);
+      border-radius: 5px;
+      margin-top: 25px;
+      background-color: rgb(255,255,255);
+      overflow: hidden;
+     }
+     .txt{
+      margin-left: 10px;
+      float: left;
+      height: 35px;
+      width: 245px;
+     }
+     .butn{
+      float: left;
+      height: 35px;
+      width: 35px;
+      background: url('../image/serch.png');
+     }
+
+     /*********************** 3>主导航部分 **********************/
+     .main-nav{
+      height: 45px;
+      background-color: rgb(240,130,55);
+     }
+     .center-nav{
+      width: 600px;
+      margin: 0 auto;
+     }
+     .main-nav li{
+      height: 45px;
+      float: left;
+     }
+    .main-nav a{
+      height: 45px;
+      line-height: 45px;
+      display: inline-block;
+      padding: 0 20px;
+      font-size: 18px;
+     }
+     .main-nav .checked{
+      background-color: rgb(231,110,39);
+      color:white;
+     }
+
+    .main-nav a:link { color:white; text-decoration: none; }
+    .main-nav a:visited{color:white; text-decoration: none;}
+    .main-nav a:hover{
+      background-color: rgb(231,110,39);
+      color:white;
+      text-decoration: none;
+    }
+    .main-nav a:active {color:white;text-decoration: none; }
+
+    /*********************** 4>主体banner部分 **********************/
+    .body-content1{
+      width: 1190px;
+      margin: 0 auto;
+    }
+    .banner{
+      height: 640px;
+      margin-top: 10px;
+      border-bottom: 2px solid orange;
+
+    }
+    /* -------------①左侧选项卡 ------------*/
+    #big_banner_wrap {
+    /* width: 1226px; */
+    height: 630px;
+    margin: 0 auto;
+    position: relative;
+    color: #424242;
+    float: left;
+  }
+  #big_banner_wrap #banner_menu_wrap {
+    width: 235px;
+    height: 100%;
+    float: left;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 600; }
+  #big_banner_wrap #banner_menu_wrap .active {margin-top: 20px; }
+  #big_banner_wrap #banner_menu_wrap li {
+    width: 100%;
+    height: 55px;
+    position: relative;
+    transition: all 3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    line-height: 55px;
+    cursor: pointer; }
+  #big_banner_wrap #banner_menu_wrap li a {
+    font-size: 13px;
+    color: white;
+    margin-left: 30px;
+    float: left;
+    text-decoration: none; }
+  #big_banner_wrap #banner_menu_wrap li .banner_menu_i {
+    float: right;
+    font-size: 20px;
+   }
+  #big_banner_wrap #banner_menu_wrap li .banner_menu_content {
+        width: 600px;
+        height: 459px;
+        display: none;
+        z-index: 610;
+        position: absolute;
+        left: 235px;
+        background: #fff; }
+  #big_banner_wrap #banner_menu_wrap li .banner_menu_content .banner_menu_content_ul {
+        float: left;
+        width: 280px; }
+  #big_banner_wrap #banner_menu_wrap li .banner_menu_content .banner_menu_content_ul li {
+        width: 250px;
+        height: 15px;
+        padding: 18px;
+        float: left; }
+  #big_banner_wrap #banner_menu_wrap li .banner_menu_content .banner_menu_content_ul li a {
+        color: #424242;
+        margin-left: 5px;
+        font-size: 12px; }
+  #big_banner_wrap #banner_menu_wrap li .banner_menu_content .banner_menu_content_ul li span {
+        width: 55px;
+        height: 20px;
+        float: right;
+        margin-top: 10px;
+        border: 1px solid #ff6700;
+        color: #FF6700;
+        font-size: 13px;
+        line-height: 24px;
+        text-align: center;
+        transition: all 3s;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s; }
+  #big_banner_wrap #banner_menu_wrap li .banner_menu_content .banner_menu_content_ul li span:hover {
+        background: #ff6700;
+        color: #ffffff; }
+
+  /*------------② 右侧盒子:循环滚动图片浏览---------- */
+  #big_banner_pic_wrap {
+    width: 955px;
+    height: 630px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+  }
+  .item img{width:955px;}
+  .carousel-indicators .active{background-color: orange;}
+
+  .choose-title{
+    width: 955px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: orange;
+    padding-left: 20px;
+    border-bottom: 1px solid #D8D8D8;
+  }
+
+  /* 重磅推荐 */
+  .collection-img a{font-size: 14px; font-weight: bold;}
+  .collection-img a:link { color:black; text-decoration: none;}
+  .collection-img a:visited{color:black; text-decoration: none;}
+  .collection-img a:hover{color:orange; text-decoration: none;}
+  .collection-img a:active {color:black; text-decoration: none;}
+
+  .collection-img p span{font-size: 12px; font-weight: bold;}
+  .collection-img p del{font-size: 12px; color: gray;}
+
+  .collection-img .collection{
+    width: 285px;
+    height: 155px;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+  }
+  .collection-img .center,.collection-img .right{
+    border-left: 1px solid #D8D8D8;
+    padding-left: 10px;
+  }
+  .collection .left-img{
+    width: 96px;
+    height: 155px;
+    float: left;
+  }
+  .collection .right-button{
+    width: 170px;
+    height: 155px;
+    float: right;
+  }
+  .collection .right-button .information{
+    height: 120px;
+  }
+
+  /* 活动快讯 */
+  .new-flash{
+    position: relative;
+    width: 945px;
+    height: 30px;
+    background-color: rgb(253,245,228);
+    left: 10px;
+    top: 40px;
+    overflow: hidden;
+    border: 1px solid rgb(246,221,203);
+  }
+  .new-flash p{
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: orange;
+    padding-left: 20px;
+    float: left;
+  }
+  .new-flash ul li{float: left; line-height: 30px;}
+
+  /* 主体content部分 */
+  .content{
+    margin-top: 10px;
+    width: 1190px;
+    height: 395px;
+  }
+  .poster{width: 235px;height: 395px; float: left;}
+  .poster img{width: 235px; border-radius: 5px;margin-bottom: 10px;}
+  .content-collection{width: 955px;height: 395px;float: right;}
+  .content-top,.content-bottom{width: 955px;height: 185px;}
+
+  /* 页面切换按钮 */
+    .person-bottom{
+      width: 955px;
+      height: 100px;
+    }
+    .person-bottom button,.bottom-txt{
+      float: right;
+      margin-left: 10px;
+    }
+  .person-bottom .bottom-txt{
+      line-height: 35px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

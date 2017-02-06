@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb3aa6d6-45d5-4b6c-99ef-fcd814291497" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flappy Bird/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pubuliu/images/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pubuliu/images/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pubuliu/images/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pubuliu/images/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pubuliu/images/05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pubuliu/images/06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pubuliu/images/07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flappy Bird/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/1f_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/1f_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/1f_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/1f_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/1f_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/1f_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/1f_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/1f_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/1f_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flappy Bird/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/2f_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/2f_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/2f_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/2f_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/2f_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/2f_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/2f_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/2f_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/2f_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/3f_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/3f_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/3f_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/3f_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/3f_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/3f_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/3f_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/3f_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/3f_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/4f_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/4f_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/4f_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/4f_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/4f_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/4f_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/4f_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/4f_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/4f_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/5f_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/5f_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/5f_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/5f_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/5f_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/5f_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/5f_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/5f_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/5f_9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/5f_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flappy Bird/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/bxx.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/cart10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/con1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/con2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/con3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/con4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/con5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/con6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/content1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/content1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/content2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/content2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/content3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/content3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/content4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/content5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/content6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/dssd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/duokan.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/duokan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/f6_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/f6_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/f6_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/f6_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/f6_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/f6_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/flybird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/foot1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/gmmt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flappy Bird/images/ground.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/iPhone_icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/jiling.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/jingling.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lenovo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/like_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/like_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/like_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/like_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/like_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/like_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/lou.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/menu1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/menu2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/menu3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/menu4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/menu5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/menu6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/movie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flappy Bird/images/pipe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/qq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/santi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/scr1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/scr2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/scr3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/scr4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/scr5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/scr6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/serch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/sina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/star_9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/taofenba.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/today_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/today_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/today_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/today_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/today_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/today_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/today_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/today_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/today_recommend.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/waterFall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/wc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/yanzhengma0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/yanzhengma1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/yanzhengma2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/yanzhengma3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/yanzhengma4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/yanzhengma5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/yanzhengma6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/yanzhengma7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/yanzhengma8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/yanzhengma9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/zfb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/image/zh.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/images/张天爱.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/css/content.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/js/content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/css/duokan.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/js/duokan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flappy Bird/flappy bird.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/js/foot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/css/footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gzccz.github.com.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/css/header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/js/header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/jquery-3.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/css/register_login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/js/register_login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/个人中心.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/我的余额.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/.idea/用户端 demo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/登录页面.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lenovo/.idea/联想整体网页.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/订单.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/购物车.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duokan/首页.html" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\moban696\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\wa\img\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\wa\img\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\wa\img\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\wa\img\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\wa\img\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\wa\img\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\wa\img\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\wa\img\7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\wa\img\8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\wa\img\9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\wa\water.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\说明.htm" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+    </list>
+    <ignored path="gzccz.github.com.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="gzccz.github.com" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.6242774">
+              <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+              <folding>
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/04.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/03.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/01.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/01.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="duokan.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/duokan.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taofen.bmp" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/taofen.bmp">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foot.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lenovo/js/foot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0172415">
+              <caret line="78" column="14" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="circles.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/circles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="149.2">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1486313422593" expanded="true" signature="4858:4898" placeholder="..." />
+                <marker date="1486313422593" expanded="true" signature="5672:5686" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/jquery.hoverdir.js" />
+        <option value="$PROJECT_DIR$/pubuliu/water.html" />
+        <option value="$PROJECT_DIR$/pubuliu/瀑布流2.html" />
+        <option value="$PROJECT_DIR$/pubuliu/waterFall.html" />
+        <option value="$PROJECT_DIR$/Flappy Bird/flappy bird.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-15" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzccz.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzccz.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzccz.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzccz.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzccz.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzccz.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzccz.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\images" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\gzccz.github.com" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\pubuliu\images" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\pubuliu" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\pubuliu\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\images" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\gzccz.github.com\pubuliu" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb3aa6d6-45d5-4b6c-99ef-fcd814291497" name="Default" comment="" />
+      <created>1486361538344</created>
+      <option name="number" value="Default" />
+      <updated>1486361538344</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-15" y="0" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/images/a1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modernizr.custom.97074.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/move-top.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.chocolat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.hoverdir.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2">
+          <caret line="166" column="4" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taofen/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/a4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubuliu/img/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubuliu/img/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubuliu/img/5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taofen/connection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/a6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubuliu/waterFall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.2">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/taofenba.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/movie.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duokan/js/duokan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flappy Bird/flappy bird.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lenovo/js/foot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/taofen.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/duokan.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/04.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/03.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/circles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="149.2">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1486313422593" expanded="true" signature="4858:4898" placeholder="..." />
+            <marker date="1486313422593" expanded="true" signature="5672:5686" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0172415">
+          <caret line="78" column="14" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6242774">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+          <folding>
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

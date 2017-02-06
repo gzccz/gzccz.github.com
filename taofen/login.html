@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="connection.css"/>
+    <link rel="stylesheet" href="login.css"/>
+    <script>
+        window.onload = function(){
+            var login = document.getElementById('loginForm');
+            var number1 = document.getElementById('phoneNumber1');
+            var number2 = document.getElementById('phoneNumber2');
+            var numberError1 = document.getElementById('numberError1');
+            var picError = document.getElementById('picError');
+            number1.onblur = function(){
+                if(number1.value === ''){
+                    numberError1.innerHTML = '';
+
+                }
+                if(isNaN(number1.value)){
+                    numberError1.innerHTML = '手机号码错误!';
+                }
+
+            }
+
+            number2.onblur = function(){
+                if(number2 != 'gb42'){
+                    picError.innerHTML = '请输入正确的验证码!';
+
+                }
+                if(number2.value == ''){
+                    picError.innerHTML = '';
+
+                }
+
+
+
+            }
+
+
+
+        }
+    </script>
+</head>
+<body>
+<!--头部-->
+<div class="color5252">
+    <div class="head-logo">
+        <div class="tf8_logo-1">
+            <a href="index.html"><img src="images1/TB2rvbJeFXXXXXKXpXXXXXXXXXX_!!83753324.png" alt=""/></a>
+        </div>
+    </div>
+    <a href="#" title="品牌保证" class="search-null"><img src="images1/TB25CJ2eXXXXXaUXXXXXXXXXXXX_!!2296013456.png" alt=""/></a>
+</div>
+<!--登录-->
+<div class="login-bg-banner">
+
+    <!-- 左边图片区域-->
+    <div class="login-banner-d">
+        <div class="login-pic">
+            <div class="banner-w">
+                <img src="images1/TB2KQKanVXXXXcKXpXXXXXXXXXX_!!2296013456.png" width="1920" height="480" alt=""/>
+            </div>
+        </div>
+    </div>
+
+    <!-- 右边登录信息区域-->
+    <div class="tf8_login">
+        <div class="login-user" id="loginForm">
+            <p class="login-title">手机号登录</p>
+            <p class="tf8_login-p1"><input type="text" value=""  placeholder="请输入11位手机号码" class="phoneNumber change-text" id="phoneNumber1"/></p>
+            <p class="numberError" id="numberError1"></p>
+            <p style="height:35px;"><input type="text"  class="code-pic" value="" placeholder="请输入图片验证码" id="phoneNumber2"/>
+                <img src="images1/createMobileLoginVCode.png" width="65px" height="35px" style="float: left; margin: 0 3px"  alt=""/>
+                <span style="width: 36px; line-height: 18px; cursor: pointer; float: left">看不清换一张</span>
+            </p>
+            <p class="picError" id="picError"></p>
+            <p class="tf8-yzm"><input type="text" class="code" placeholder="请输入收到的验证码" id="phoneNumber3"/>
+            <span class="yzm-button">获取手机验证码</span>
+            </p>
+            <p class="codeError" id="codeError"></p>
+            <input type="button" class="submit" id="logIn" value="登&nbsp;录"/>
+            <p class="explain">说明:未注册淘粉吧的手机号,首次登陆时将自动注册,且代表您已同意<a href="http://www.taofen8.com/userProtocol.jsp" style="color:#f53e7b">《淘粉吧用户服务协议》</a>
+            </p>
+
+            <div class="autoLogin">
+                <p class="atuoLogin-1">
+                    <input type="checkbox" checked="checked" name="auto"/>
+                    <lable for="auto" style="color: #9e9e9e">俩周内免登录</lable>
+                </p>
+            </div>
+
+            <div class="taobaoLogin">
+                <p class="line">&nbsp;</p>
+                <span class="taobaoLogin1">你也可以使用以下方式登录</span>
+                <p class="taobaoLogin2">
+                    <a href="#"><img src="images1/TB2asmmnVXXXXbkXpXXXXXXXXXX_!!2296013456.png" alt="淘宝logo" title="淘宝"/></a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--尾部-->
+<div class="mj_footDiv w992">
+    <p><a href="http://www.taofen8.com/aboutTF8.jsp" target="_blank">关于淘粉吧</a><span>|</span>
+        <a href="http://www.taofen8.com/credit.jsp" target="_blank">信用认证</a><span>|</span>
+        <a href="http://www.taofen8.com/cooperate.jsp" target="_blank">商务合作</a><span>|</span>
+        <a href="http://www.taofen8.com/contactUS.jsp" target="_blank">联系我们</a><span>|</span>
+        <a href="http://www.taofen8.com/faq/faqNew1.jsp" target="_blank">帮助中心</a></p>
+    <p style="font-weight:400;">copyright@2011-2015 Taofen8.com 浙ICP备12042948号-1</p>
+</div>
+
+</body>
+</html>

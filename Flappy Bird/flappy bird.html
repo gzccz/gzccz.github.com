@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        @keyframes fb{
+            0%{font-size: 30px}
+            50%{font-size: 35px}
+            100%{font-size: 40px}
+        }
+        #fb{
+            text-shadow: #000000 2px 2px 2px;
+            animation: fb 2s 100 linear;
+        }
+    </style>
+</head>
+<body onload="init()" style="background-color: ghostwhite;margin: 0;padding: 0;"> <!-- 文档全部加载完毕再调用init()方法 -->
+<!-- 头部条开始 -->
+<header style="width: 100%;height: 50px;background-color: lightblue;">
+    <span style="font-size: 20px;font-family: 华文彩云;margin-left: 50px;line-height: 50px">快来一起玩儿&nbsp;&nbsp;</span>
+    <span id="fb" style="font-size: 30px; color: gray;line-height: 50px"><i>Flappy Bird</i></span>
+</header>
+<!-- 游戏部分 -->
+<p align="center" style="margin: 50px"> <!-- 使画布局中 -->
+    <canvas style="background-color: lightblue;" width="400px" height="600" id="canvas"></canvas>
+</p>
+<!-- 脚部版权 -->
+<footer style="text-align: center; line-height: 50px;height: 50px;background-color: lightblue;">
+    <a href="#" style="text-decoration: none;color: #555555">Copyright &copy; 狗子村村长</a>
+</footer>
+</body>
+</html>
+<script>
+    var context;//创建图形上下文全局变量
+    var cwidth = 400;
+    var cheight = 600;
+    var pipe_height = 200;//创建两根水管之间的距离
+    var i = 0;
+    var tid;
+    var score = 0;
+    var isOver = false;// 此行代码写不写都行
+    //创建一个类，设置背景图片的基础属性
+    function Bg(x,y,width,height,src){
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        //创建一个空的图片对象
+        var image = new Image();
+        image.src = src;
+        this.image = image;
+        this.draw = bgDraw;//将背景图片绘制到图形上下文上
+    }
+    //创建一个类，设置上方水管图片的基础属性
+    function TopPipe(x,y,width,height,src){
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        //创建一个空的图片对象
+        var image = new Image();
+        image.src = src;
+        this.image = image;
+        this.draw = topPipeDraw;
+    }
+    //创建一个类，设置下方水管图片的基础属性
+    function BottomPipe(x,y,width,height,src){
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        //创建一个空的图片对象
+        var image = new Image();
+        image.src = src;
+        this.image = image;
+        this.draw = bottomPipeDraw;
+    }
+    //创建一个小鸟的类
+    function Bird(x,y,width,height){
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        this.draw = birdDraw;
+    }
+    //创建一个gameover的类
+    function GameOver(x,y,width,height,src){
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        var image = new Image();
+        image.src = src;
+        this.image = image;
+        this.draw = gameOverDraw;
+    }
+
+//创建一个方法，绘制背景图片
+    function bgDraw(){
+        context.drawImage(this.image,this.x,this.y,this.width,this.height);
+    }
+//绘制上方水管图片
+    function topPipeDraw(){
+        context.drawImage(this.image,159,488,132,801,this.x,this.y,this.width,this.height);
+    }
+//绘制下方水管图片
+    function bottomPipeDraw(){
+        context.drawImage(this.image,9,478,132,801,this.x,this.y,this.width,this.height);
+    }
+//绘制小鸟动态图片
+    function birdDraw(){
+        i++;
+        var image = new Image();
+        image.src = "images/" + i % 3 + ".gif";
+       /* this.image = image;
+         context.drawImage(this.image,this.x,this.y,this.width,this.height); 等同于下行代码：*/
+        context.drawImage(image,this.x,this.y,this.width,this.height);
+    }
+//绘制gameover图片
+    function gameOverDraw(){
+        context.drawImage(this.image,15,319,482,106,this.x,this.y,this.width,this.height);
+    }
+
+    var bg = new Bg(0,0,cwidth,cheight,"images/bg.png");
+    var ground = new Bg(0,cheight - 50,cwidth,50,"images/ground.png");
+    var topPipe = new TopPipe(cwidth/3,0,80,200,"images/pipe.png");
+    var bottomPipe = new BottomPipe(cwidth/3,topPipe.height + pipe_height,80,300,"images/pipe.png");
+    var bird = new Bird(cwidth/9,200,41,31);
+    var gameOver = new GameOver(80,250,240,50,"images/pipe.png");
+
+//循环动作
+    var gravity = 5;//设置重力
+    var speed = 5;//设置速度
+    function cycleAction() {
+        bird.y = bird.y + gravity;//设置小鸟的移动
+        topPipe.x = topPipe.x - speed;//设置水管的移动
+        bottomPipe.x = topPipe.x;
+//        设置水管循环移动
+        if (topPipe.x <= -topPipe.width) {
+            topPipe.x = cwidth;
+            //设置上方水管的随机高度为100~300
+            topPipe.height = Math.random() * 200 + 100;
+            bottomPipe.y = topPipe.height + pipe_height;
+            //每次从右边出现新的水管，说明小鸟通过了前面的水管，让分数加1
+            score++;
+        }
+
+        //设置碰撞: 碰撞上水管，碰撞下水管，碰撞地板
+        // 小鸟碰撞上方水管
+        var topPipeCondition = bird.x + bird.width >= topPipe.x && bird.y <= topPipe.y + topPipe.height && bird.x <= topPipe.x + topPipe.width;
+        //小鸟碰撞下方水管
+        var bottomPipeCondition = bird.x + bird.width >= topPipe.x && bird.x <= topPipe.x + topPipe.width && bird.y + bird.height >= bottomPipe.y;
+        //小鸟碰撞地板
+        var groundCondition = bird.y + bird.height >= ground.y;
+        //如果满足以上任何一个条件，游戏都结束
+        if (topPipeCondition || bottomPipeCondition || groundCondition) {
+            //游戏结束，清除定时器
+            clearInterval(tid);
+            gameOver.draw();
+            //弹出游戏结束等
+            context.fillStyle = "rgb(255,255,255)";//设置填充色
+            context.font = "30px Accent";//设置字体
+            context.fillText("你获得了" + score + "分！", 100, 100);//设置填充文本
+            //标记游戏结束
+            isOver = true;
+        }
+    }
+    //设置重新开始游戏
+    function reAction(){
+        if (isOver){
+            //让窗口从当前位置重新加载
+            window.location.reload();
+        }
+    }
+//    设置小鸟的键盘控制
+    function keydown(event){
+        var event = event || window.event;
+        if (event.keyCode == 38 || event.keyCode == 32){
+            bird.y =  bird.y -30;
+            if (bird.y <= 0){
+                bird.y = 0;
+            }
+        }
+    }
+
+    //将所有图片绘制到canvas上
+    function drawAllElements(){
+        bg.draw();
+        ground.draw();
+        topPipe.draw();
+        bottomPipe.draw();
+        bird.draw();
+        cycleAction();
+    }
+    function init(){
+        var canvas = document.getElementById("canvas");
+        // 获取到当前画布的图形上下文
+        context = canvas.getContext("2d");
+
+       tid =  setInterval(drawAllElements,100);
+        document.onkeydown = keydown;
+        document.onclick = reAction;
+    }
+
+</script>
