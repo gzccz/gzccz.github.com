@@ -358,7 +358,11 @@ width:100%;
 }
 /*--about--*/
 .about-grids {
+<<<<<<< HEAD
   margin-top: 2px;
+=======
+  margin-top: 60px;
+>>>>>>> origin/master
 }
 .about {
   background:#76b852;
@@ -771,7 +775,11 @@ color:#76b852;
 	.about-info p {
 	  width: 82%;
 	  }
+<<<<<<< HEAD
 	.ul#da-thumbs,.wel-grids,.contact-info,.skill-grids {
+=======
+	.about-grids,ul#da-thumbs,.wel-grids,.contact-info,.skill-grids {
+>>>>>>> origin/master
 	  margin-top: 45px;
 	}
 	.about-info h3 ,.skill-info h2,.gallery h3,.ser-head h3,.news h3,.get-info h3{
@@ -827,9 +835,12 @@ color:#76b852;
 	  margin: 25px 0 0 0;
 	  font-size: 19px;
 	  }
+<<<<<<< HEAD
   .container h4{
     margin-top: 60px;
   }
+=======
+>>>>>>> origin/master
 }
 @media (max-width:1200px){
   .banner-image {
@@ -839,9 +850,12 @@ color:#76b852;
     float: left;
     width: 100%;
   }
+<<<<<<< HEAD
   .container #info{
     margin-top: 10px;
   }
+=======
+>>>>>>> origin/master
 }
 @media (max-width: 800px){
 	.navigation {
@@ -885,7 +899,10 @@ color:#76b852;
 	  font-size: 35px;
 	}
 	.about-info h4 {
+<<<<<<< HEAD
       margin-top: 20px;
+=======
+>>>>>>> origin/master
 	  font-size: 15px;
 	  }
 	.about-info p,.about-grid p,.wel-grid p ,.news p,.get-info p,.contact-grid p{
@@ -896,12 +913,20 @@ color:#76b852;
 	}
 	.about-grid {
 	  float: left;
+<<<<<<< HEAD
 	  width: 100%;
+=======
+	  width: 50%;
+>>>>>>> origin/master
 	}
 	.about-grid p {
 	  padding: 1em 0 0 0;
 	}
+<<<<<<< HEAD
 	. ul#da-thumbs, .wel-grids, .contact-info {
+=======
+	.about-grids, ul#da-thumbs, .wel-grids, .contact-info {
+>>>>>>> origin/master
 	  margin-top: 30px;
 	}
 	.skills-grid {
@@ -988,11 +1013,14 @@ color:#76b852;
 	.copy-right p {
 	font-size: 13px;
 	}
+<<<<<<< HEAD
 
   .container h4{
     margin-top: 15px;
   }
 
+=======
+>>>>>>> origin/master
 }
 @media (max-width: 768px){
 	.navigation {
@@ -1046,7 +1074,11 @@ color:#76b852;
 	}
 	.about-grid {
 	  float: left;
+<<<<<<< HEAD
 	  width: 100%;
+=======
+	  width: 50%;
+>>>>>>> origin/master
 	}
 	.about-grid p {
 	  padding: 1em 0 0 0;
@@ -1453,6 +1485,7 @@ padding:0;
 }
 
 
+<<<<<<< HEAD
 .about-grids .info-left li{
   list-style-type: none;
   color: #d9ffc4;
@@ -1467,6 +1500,8 @@ padding:0;
   line-height: 34px;
 }
 
+=======
+>>>>>>> origin/master
 
 
 
