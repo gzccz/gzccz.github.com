@@ -23,7 +23,7 @@
 
 
     app.constant('URLConfig', {
-        appUrl: 'https://api.douban.com/v2/movie/',
+        appUrl: 'http://api.douban.com/v2/movie/',
         count: 10,
     })
 

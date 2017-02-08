@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eb3aa6d6-45d5-4b6c-99ef-fcd814291497" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/douban/app.js" afterPath="$PROJECT_DIR$/douban/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gzccz.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
