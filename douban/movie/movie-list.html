@@ -1,8 +1,7 @@
 <!-- 需要绑定列表的分类 -->
-<h2 ng-bind="title"></h2>
-
 <div class="list-group">
-    <a href="#/subject/{{movie.id}}" ng-repeat="movie in movies" class="list-group-item">
+
+    <div ng-repeat="movie in movies" class="list-group-item">
         <div class="media">
             <span class="badge pull-right">
                 {{movie.rating.average}}
@@ -18,22 +17,28 @@
             <p class="caption">
                 导演：
 					<span ng-repeat="director in movie.directors">
-                        {{director.name}}{{$last?'':'、'}}
+                          {{director.name}}{{$last?'':'、'}}
 					</span>
             </p>
             <p class="caption">
-                类型：{{movie.genres.join('、');}}
+                类型：{{ movie.genres.join('、'); }}
+            </p>
+            <p class="caption">
+                演员：
+					<span ng-repeat="cast in movie.casts">
+                          {{cast.name}}{{$last?'':'、'}}
+					</span>
             </p>
 
         </div>
-    </a>
+    </div>
 </div>
 
 <p>
-    总共:{{total || 1000}}条
+    总共：{{total || 1000}}条
 </p>
 
-<div class="modal fade" ng-class="{in:loading}" ng-hide="!loading" style="display: block;">
+<div class="modal fade" ng-class="{in : loading}" ng-hide="!loading" style="display: block;">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">

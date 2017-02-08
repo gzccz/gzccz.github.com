@@ -1,12 +1,36 @@
-.siderbar{
-    padding: 5px;
-    padding-top: 20px;
-    height: 100%;
-    position: fixed;
-    background-color: #f5f5f5;
-    border-right: 1px solid #eee;
-    z-index: 1000;
+.nav{
+    margin: auto;
+    padding-left: 10px;
 }
-body{
-    padding-top: 50px;
+
+.box{
+    width: 600px;
+    height: 440px;
+    margin: auto;
+    background-color: gainsboro;
 }
+.top{
+    height: 40px;
+}
+
+.content{
+    height: 400px;
+}
+.input-group{
+    width: 240px;
+}
+
+
+a:link{
+    text-decoration:none;
+}
+a:visited{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+a:active{
+    text-decoration:none;
+}
+
